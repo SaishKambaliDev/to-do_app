@@ -1,0 +1,39 @@
+{
+  "name": "todo-web-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A local-first todo app with personal tasks, shared team boards, deadlines, progress tracking, comments, and light/dark themes.",
+  "license": "MIT",
+  "keywords": [
+    "todo",
+    "tasks",
+    "react",
+    "vite",
+    "typescript",
+    "pwa",
+    "local-first"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "oxlint": "^1.90.0",
+    "typescript": "~7.0.2",
+    "vite": "7.3.8"
+  }
+}
